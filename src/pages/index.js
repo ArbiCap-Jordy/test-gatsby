@@ -34,6 +34,7 @@ import {
   XIcon,
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const solutions = [
   {
@@ -207,7 +208,7 @@ export default function Example() {
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <a href="#">
                 <span className="sr-only">Workflow</span>
-                <img
+                <StaticImage
                   className="h-8 w-auto sm:h-10"
                   src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg"
                   alt=""
@@ -315,7 +316,7 @@ export default function Example() {
                 <div className="pt-5 pb-6 px-5">
                   <div className="flex items-center justify-between">
                     <div>
-                      <img
+                      <StaticImage
                         className="h-8 w-auto"
                         src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg"
                         alt="Workflow"
@@ -385,7 +386,7 @@ export default function Example() {
           <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
               <div className="absolute inset-0">
-                <img
+                <StaticImage
                   className="h-full w-full object-cover"
                   src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100"
                   alt="People working on laptops"
@@ -430,27 +431,27 @@ export default function Example() {
             </p>
             <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img className="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
+                <StaticImage className="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
               </div>
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img className="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
+                <StaticImage className="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
               </div>
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img
+                <StaticImage
                   className="h-12"
                   src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
                   alt="StaticKit"
                 />
               </div>
               <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
-                <img
+                <StaticImage
                   className="h-12"
                   src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
                   alt="Transistor"
                 />
               </div>
               <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                <img
+                <StaticImage
                   className="h-12"
                   src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
                   alt="Workcation"
@@ -502,7 +503,7 @@ export default function Example() {
                     <footer className="mt-3">
                       <div className="flex items-center space-x-3">
                         <div className="flex-shrink-0">
-                          <img
+                          <StaticImage
                             className="h-6 w-6 rounded-full"
                             src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                             alt=""
@@ -518,7 +519,7 @@ export default function Example() {
               </div>
               <div className="mt-12 sm:mt-16 lg:mt-0">
                 <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                  <img
+                  <StaticImage
                     className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                     src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
                     alt="Inbox user interface"
@@ -558,7 +559,7 @@ export default function Example() {
               </div>
               <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
                 <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                  <img
+                  <StaticImage
                     className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                     src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
                     alt="Customer profile user interface"
@@ -600,7 +601,7 @@ export default function Example() {
           <div className="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
             <div className="h-full w-full xl:grid xl:grid-cols-2">
               <div className="h-full xl:relative xl:col-start-2">
-                <img
+                <StaticImage
                   className="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
                   src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100"
                   alt="People working on laptops"

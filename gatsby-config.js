@@ -4,6 +4,8 @@ module.exports = {
     title: "test-gatsby",
   },
   plugins: [
-    `gatsby-plugin-postcss`
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
   ]
 };
