@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "test-gatsby",
+    title: "Hybrx Test Gatsby",
   },
   plugins: [
     "gatsby-plugin-postcss",
