@@ -15,5 +15,13 @@ module.exports = {
       }
     },
     "gatsby-plugin-mdx",
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `qjkmi4u7cggi`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: "gXbrPgd6_5fT_Qoa3uDGjfUFRHJbrPMHCRcdb1mJDkI",
+      },
+    },
   ]
 };
